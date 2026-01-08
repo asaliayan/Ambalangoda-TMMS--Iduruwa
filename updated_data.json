@@ -1,0 +1,1274 @@
+[
+    {
+        "SIN": "I001",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Kotakirala",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I003",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Delkabalagoda",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I005",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Parussagoda",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I010",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Kuda Uragaha",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I015",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Kotuwabendahena",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I020",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Rantotuwila",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I022",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Ruhunu Minerals",
+        "Type": "bulk",
+        "Capacity": "1000",
+        "kV": "33"
+    },
+    {
+        "SIN": "I025",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Moragoda",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I030",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Meegaspitiya",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I090",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Sohona Junction",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I093",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Kailaththa",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I095",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Anuradagama",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I100",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Industrial State 1",
+        "Type": "bulk & distribution",
+        "Capacity": "400",
+        "kV": "33"
+    },
+    {
+        "SIN": "I102",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Peradium clothing",
+        "Type": "bulk",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I105",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Alpha Export",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I107",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "SIS Plastic",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I109",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Three star Packaging Solution",
+        "Type": "bulk",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I110",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Industrial Estate 11",
+        "Type": "distribution",
+        "Capacity": "400",
+        "kV": "33"
+    },
+    {
+        "SIN": "I115",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Industrial Estate 03",
+        "Type": "bulk & distribution",
+        "Capacity": "400",
+        "kV": "33"
+    },
+    {
+        "SIN": "I120",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Sampath garment",
+        "Type": "bulk",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I130",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "D.S.L Lanka",
+        "Type": "bulk",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I135",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Yatagala Maha Vdyalaya",
+        "Type": "bulk",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I140",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Yatagala",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I145",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Pradeshiya Saba",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+	
+    {
+        "SIN": "I150",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Bogahawella",
+        "Type": "bulk & distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I155",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Kethpurawara-01",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I158",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Kethpura II",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I160",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Uragasmanhandiya",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I161",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "People's Bank",
+        "Type": "bulk & distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I165",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Awasahandiya",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I170",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Kirimatiyawa",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I171",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Welipotha",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I175",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Boraluketiya",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I180",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Parappuwa",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I190",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Polathupalatha",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I191",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Polathupalatha New",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I192",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Katuwila",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I194",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Kedella",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I195",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Waulugala kele",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I198",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Don Bosco",
+        "Type": "bulk",
+        "Capacity": "400",
+        "kV": "33"
+    },
+    {
+        "SIN": "I200",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Pathirajagama",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I205",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Nelligoda",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I210",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Triton 1",
+        "Type": "bulk",
+        "Capacity": "630",
+        "kV": "33"
+    },
+    {
+        "SIN": "I220",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Triton 2",
+        "Type": "bulk",
+        "Capacity": "630",
+        "kV": "33"
+    },
+    {
+        "SIN": "I225",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Benthota Bridge",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I230",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Tourist Board",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I250",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Lansiyawatta",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I260",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Ahungalle",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+	
+    {
+        "SIN": "I265",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Ahungalla Market",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I270",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "One world foundation",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I275",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Bogahapitiya",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I290",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Galwehera",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I300",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Galwehera Pump",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I305",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Thotawatta Para",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I307",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Cargills Ahungalla",
+        "Type": "bulk & distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I308",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Egodamulla Ltd",
+        "Type": "bulk & distribution",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I309",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Egadamulla packging new",
+        "Type": "bulk",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I310",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Dammakusala Mawath",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I311",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Aranya Kosgoda",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I312",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Salt Collective Pvt Ltd",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I320",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Piyagama",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I330",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Tharakee Garment",
+        "Type": "bulk",
+        "Capacity": "400",
+        "kV": "11"
+    },
+    {
+        "SIN": "I335",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Ajith Gunawardana",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I337",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Cargills - Kosgoda",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I340",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Tri star apperel Garment",
+        "Type": "bulk",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I350",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Hatharaman Handiya",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I353",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Wellangoda",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I360",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Sea Food",
+        "Type": "bulk",
+        "Capacity": "400",
+        "kV": "11"
+    },
+    {
+        "SIN": "I365",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Sheraton Quarters",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I367",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Godagama Saranankara",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I368",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Unesco Village",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I369",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Arora Village",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I370",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Nanatota palatha",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+	
+    {
+        "SIN": "I371",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Cinnamon Park(2 Kanuwa)",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I372",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Lealli Heththuwa",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I375",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Banwelduwa",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I380",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Wathurawela",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I390",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Detu Janapadaya",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I400",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Kosgoda Telecom",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I405",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Habitat Kosgoda",
+        "Type": "bulk",
+        "Capacity": "400",
+        "kV": "11"
+    },
+    {
+        "SIN": "I415",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Egodaduwa",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I420",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Duwemodara",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I425",
+        "Feeder Id": "AMBLG_GL_F4",
+        "Substation Name": "Maha palana",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I430",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "AIDA Bentota",
+        "Type": "bulk",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I440",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Obadawatta",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I443",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Sunil Holdings",
+        "Type": "bulk & distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I448",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "The Villa",
+        "Type": "bulk",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I450",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Robelgoda",
+        "Type": "bulk & distribution",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I451",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "T & T Villa",
+        "Type": "bulk",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I455",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Wunderbar",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I456",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Amal Villa",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I460",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Sewerage plant tourist Board",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I470",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Warahena Walauwa",
+        "Type": "bulk & distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I472",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Keels Laundary",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I475",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Warahena",
+        "Type": "bulk & distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I480",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Athuruwella",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I490",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Samanvilla",
+        "Type": "bulk",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I495",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Tharaka Lanka",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+	
+    {
+        "SIN": "I498",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Royal Beach",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I500",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Induruwa",
+        "Type": "bulk & distribution",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I502",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Galabada New",
+        "Type": "bulk & distribution",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I503",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Southern Blue Sappahire",
+        "Type": "bulk & distribution",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I505",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Temple tree",
+        "Type": "bulk",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I508",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Vishvering plan",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I510",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Yalegama",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I514",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Emerald Bay Hotel",
+        "Type": "bulk",
+        "Capacity": "630",
+        "kV": "11"
+    },
+    {
+        "SIN": "I515",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "AIDA Yalegama",
+        "Type": "bulk & distribution",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I520",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Induruwa Beach",
+        "Type": "bulk",
+        "Capacity": "630",
+        "kV": "11"
+    },
+    {
+        "SIN": "I525",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Habakkala",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I530",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Maha Induruwa",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "11"
+    },
+    {
+        "SIN": "I535",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Ranjuka Arushna Ubayasiri",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "11"
+    },
+    {
+        "SIN": "I540",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Udumulla",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "11"
+    },
+    {
+        "SIN": "I550",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Celltel",
+        "Type": "bulk & distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I555",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Sumanagiri",
+        "Type": "bulk & distribution",
+        "Capacity": "400",
+        "kV": "33"
+    },
+    {
+        "SIN": "I560",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Etawalawatta",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I570",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Akadegoda",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I580",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Dobagahawatta",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I585",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Mullegoda",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I590",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Gonagalapura",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I595",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Gonagala Hospital",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I600",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Paragahatota(Dorawana)",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I605",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Thilakma Developers",
+        "Type": "bulk & distribution",
+        "Capacity": "400",
+        "kV": "33"
+    },
+    {
+        "SIN": "I610",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Swasthi mill",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+	
+    {
+        "SIN": "I620",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Elasto R/E",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I625",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Gomate",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I630",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Texirip LTD (Elasto 1)",
+        "Type": "bulk & distribution",
+        "Capacity": "400",
+        "kV": "33"
+    },
+    {
+        "SIN": "I650",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Galapatha",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I660",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Kommala",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I662",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Bodhimaluwa",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I665",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Selesthia International",
+        "Type": "bulk",
+        "Capacity": "630",
+        "kV": "33"
+    },
+    {
+        "SIN": "I670",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Adagantota",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I675",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Dedduwa Junction",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I677",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Lunuganga Estate",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I680",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Haburugala",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I685",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Thotakanatta",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I690",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Thunduwa",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I695",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Haburugala School",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I698",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Araliya Land Thuduwa",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I700",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Thuduwa",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I702",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Kanahenthota",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I705",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Capital Lanka",
+        "Type": "bulk",
+        "Capacity": "400",
+        "kV": "33"
+    },
+    {
+        "SIN": "I706",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Katuwatta",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I708",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Kamal Sanjeewa Shopping Complex",
+        "Type": "bulk",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I710",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Horawala",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I712",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Silver Garden",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I715",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Mahawila",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I720",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Miriswatta",
+        "Type": "distribution",
+        "Capacity": "250",
+        "kV": "33"
+    },
+    {
+        "SIN": "I721",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Galthuduwa",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+	
+    {
+        "SIN": "I722",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Kottambagaha Junction",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I723",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Maha Kurunda",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I725",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Green Garden",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I730",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Pilekumbura",
+        "Type": "distribution",
+        "Capacity": "160",
+        "kV": "33"
+    },
+    {
+        "SIN": "I735",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Miriswatta School",
+        "Type": "distribution",
+        "Capacity": "100",
+        "kV": "33"
+    },
+    {
+        "SIN": "I760",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Bentota Beach",
+        "Type": "bulk",
+        "Capacity": "1000",
+        "kV": "11"
+    },
+    {
+        "SIN": "I770",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Sea sand",
+        "Type": "bulk & distribution",
+        "Capacity": "1000",
+        "kV": "11"
+    },
+    {
+        "SIN": "I780",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Lihiniya surfe",
+        "Type": "bulk",
+        "Capacity": "630",
+        "kV": "11"
+    },
+    {
+        "SIN": "I790",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "Serandib",
+        "Type": "bulk",
+        "Capacity": "400",
+        "kV": "11"
+    },
+    {
+        "SIN": "I810",
+        "Feeder Id": "AMBLG_GL_F6",
+        "Substation Name": "NHR",
+        "Type": "bulk",
+        "Capacity": "250",
+        "kV": "11"
+    }
+
+
+]

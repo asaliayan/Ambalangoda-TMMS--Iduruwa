@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIN Search and Maintenance Application</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="app-header">
+        <div class="header-content">
+          <h1>
+            <i class="fas fa-bolt"></i> Transformer Maintenance Management
+            System
+          </h1>
+          <p class="subtitle">Substation Information Iduruwa CSC</p>
+        </div>
+        <!-- Navigation Bar -->
+        <nav class="navigation-bar">
+          <ul>
+            <li>
+              <a href="/"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="/record-management"
+                ><i class="fas fa-tasks"></i> Manage Records</a
+              >
+            </li>
+            <li>
+              <a href="/reporting"
+                ><i class="fas fa-chart-line"></i> Reporting</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main-content">
+        <div class="card search-section">
+          <div class="search-container">
+            <div class="search-input-group">
+              <i class="fas fa-search search-icon"></i>
+              <input
+                type="text"
+                id="sin-search"
+                placeholder="Enter SIN (e.g., H005)"
+                class="search-input"
+                autocomplete="off"
+                value="I"
+              />
+              <button id="search-btn" class="btn btn-primary">
+                <i class="fas fa-search"></i> Search
+              </button>
+            </div>
+          </div>
+
+          <div class="actions-container">
+            <button id="maintenance-btn" class="btn btn-secondary">
+              <i class="fas fa-tools"></i> Due for Maintenance
+            </button>
+            <button id="maintenance-next-month-btn" class="btn btn-secondary">
+              <i class="fas fa-calendar"></i> Next Month Maintenance
+            </button>
+            <button id="export-btn" class="btn btn-success">
+              <i class="fas fa-file-export"></i> Export Results
+            </button>
+            <button id="export-all-btn" class="btn btn-success">
+              <i class="fas fa-download"></i> Export All Data
+            </button>
+          </div>
+        </div>
+
+        <!-- filter section  -->
+
+        <div class="card filter-section">
+          <div class="filter-group">
+            <label for="type-filter">
+              <i class="fas fa-filter"></i> Filter by Type:
+            </label>
+            <select id="type-filter" class="select-input">
+              <option value="All">All Types</option>
+              <option value="Bulk">Bulk</option>
+              <option value="Distribution">Distribution</option>
+              <option value="Bulk & Distribution">Bulk & Distribution</option>
+            </select>
+
+            <label for="voltage-filter">
+              <i class="fas fa-bolt"></i> Voltage (kV):
+            </label>
+            <select id="voltage-filter" class="select-input">
+              <option value="All">All Voltages</option>
+              <option value="11">11 kV</option>
+              <option value="33">33 kV</option>
+            </select>
+
+            <label for="date-range">
+              <i class="fas fa-calendar-alt"></i> Date Range:
+            </label>
+            <select id="date-range" class="select-input">
+              <option value="all">All Time</option>
+              <option value="thisMonth">This Month</option>
+              <option value="nextMonth">Next Month</option>
+              <option value="next3Months">Next 3 Months</option>
+            </select>
+          </div>
+        </div>
+        <!-- Insert this after the existing .search-section card -->
+        <!-- Replace the existing date range section with this -->
+        <div class="card search-section">
+          <h3>
+            <i class="fas fa-calendar-check"></i> Substations Maintained in Date
+            Range
+          </h3>
+          <div class="search-container">
+            <div class="filter-group">
+              <label for="start-date">Start Date:</label>
+              <input type="date" id="start-date" class="select-input" />
+              <label for="end-date">End Date:</label>
+              <input type="date" id="end-date" class="select-input" />
+              <label for="type-filter-range">Type:</label>
+              <select id="type-filter-range" class="select-input">
+                <option value="All">All Types</option>
+                <option value="Bulk">Bulk</option>
+                <option value="Distribution">Distribution</option>
+                <option value="Bulk & Distribution">Bulk & Distribution</option>
+              </select>
+              <label for="voltage-filter-range">Voltage (kV):</label>
+              <select id="voltage-filter-range" class="select-input">
+                <option value="All">All Voltages</option>
+                <option value="11">11 kV</option>
+                <option value="33">33 kV</option>
+              </select>
+              <label for="cycle-filter-range">Cycle (Years):</label>
+              <select id="cycle-filter-range" class="select-input">
+                <option value="All">All Cycles</option>
+                <option value="1">1 Year</option>
+                <option value="3">3 Years</option>
+              </select>
+              <button id="date-range-filter-btn" class="btn btn-primary">
+                <i class="fas fa-filter"></i> Filter
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="summary-stats" class="card stats-section">
+          <h3><i class="fas fa-chart-bar"></i> Summary Statistics</h3>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <i class="fas fa-database"></i>
+              <span class="stat-label">Total Records</span>
+              <span id="total-records" class="stat-value">0</span>
+            </div>
+            <div class="stat-card">
+              <i class="fas fa-tools"></i>
+              <span class="stat-label">Due for Maintenance</span>
+              <span id="maintenance-due" class="stat-value">0</span>
+            </div>
+            <div class="stat-card">
+              <i class="fas fa-calendar-check"></i>
+              <span class="stat-label">Next Month Due</span>
+              <span id="next-month-due" class="stat-value">0</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="no-results" class="alert alert-warning hidden">
+          <i class="fas fa-exclamation-triangle"></i> No results found
+        </div>
+
+        <div id="results" class="results-section"></div>
+      </main>
+
+      <footer class="app-footer">
+        <p>
+          &copy; <span id="current-year"></span> Transformer Maintenance
+          Monitoring System. All rights reserved.
+        </p>
+        <p>Created by Asanka Udayanga</p>
+      </footer>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script>
+      // Get the current year
+      const currentYear = new Date().getFullYear();
+      // Update the year in the footer
+      document.getElementById("current-year").textContent = currentYear;
+    </script>
+  </body>
+</html>

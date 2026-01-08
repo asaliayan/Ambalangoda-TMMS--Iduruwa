@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Records - Transformer Maintenance Monitoring System</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/record-management-styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Header -->
+      <header class="app-header">
+        <div class="header-content">
+          <h1>
+            <i class="fas fa-bolt"></i> Transformer Maintenance Monitoring
+            System
+          </h1>
+          <p class="subtitle">Manage Records Iduruwa CSC</p>
+        </div>
+        <!-- Navigation Bar -->
+        <nav class="navigation-bar">
+          <ul>
+            <li>
+              <a href="/"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="/record-management"
+                ><i class="fas fa-tasks"></i> Manage Records</a
+              >
+            </li>
+            <li>
+              <a href="/reporting"
+                ><i class="fas fa-chart-line"></i> Reporting</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <div class="card manage-section">
+          <h2>Manage Records</h2>
+
+          <!-- Search by SIN -->
+          <div class="search-section">
+            <input
+              type="text"
+              id="search-sin"
+              placeholder="Enter SIN to search"
+              class="search-input"
+              autocomplete="off"
+              value="I"
+            />
+            <button id="search-btn" class="btn btn-primary">
+              <i class="fas fa-search"></i> Search
+            </button>
+          </div>
+
+          <!-- Subtitle -->
+          <h3 id="form-subtitle">Add New Data</h3>
+
+          <!-- Form to Add/Update Record -->
+          <form id="record-form" class="record-form">
+            <input type="hidden" id="record-id" />
+            <div class="form-group">
+              <label for="sin">SIN:</label>
+              <input
+                type="text"
+                id="sin"
+                class="form-input"
+                required
+                autocomplete="off"
+                value="I"
+              />
+            </div>
+            <div class="form-group">
+              <label for="feeder-id">Feeder Id:</label>
+              <input
+                type="text"
+                id="feeder-id"
+                class="form-input"
+                required
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="substation-name">Substation Name:</label>
+              <input
+                type="text"
+                id="substation-name"
+                class="form-input"
+                required
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="type">Type:</label>
+              <select id="type" class="form-input" required>
+                <option value="Distribution">Distribution</option>
+                <option value="Bulk">Bulk</option>
+                <option value="Bulk & Distribution">Bulk & Distribution</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="capacity">Capacity (kVA):</label>
+              <input
+                type="text"
+                id="capacity"
+                class="form-input"
+                required
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="kv">kV:</label>
+              <input type="text" id="kv" class="form-input" required />
+            </div>
+            <div class="form-group">
+              <label for="last-maintenance-date">Last Maintenance Date:</label>
+              <input
+                type="date"
+                id="last-maintenance-date"
+                class="form-input"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="cycle">Cycle (Years):</label>
+              <select id="cycle" class="form-input" required>
+                <option value="1">1 Year</option>
+                <option value="3">3 Years</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="surge-ar-resistance">SurgeAr Resistance:</label>
+              <input
+                type="text"
+                id="surge-ar-resistance"
+                class="form-input"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="nutrel-resistance">Nutrel Resistance:</label>
+              <input
+                type="text"
+                id="nutrel-resistance"
+                class="form-input"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="ir-ht-lt">IR HT-LT:</label>
+              <input
+                type="text"
+                id="ir-ht-lt"
+                class="form-input"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="ir-ht-body">IR HT-Body:</label>
+              <input
+                type="text"
+                id="ir-ht-body"
+                class="form-input"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="ir-lt-body">IR LT-Body:</label>
+              <input
+                type="text"
+                id="ir-lt-body"
+                class="form-input"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="new-sub">New Substation:</label>
+              <select id="new-sub" class="form-input" required>
+                <option value="false">No</option>
+                <option value="true">Yes</option>
+              </select>
+            </div>
+            <div class="form-actions">
+              <button type="submit" id="add-btn" class="btn btn-success">
+                <i class="fas fa-plus"></i> Add Record
+              </button>
+              <button type="button" id="update-btn" class="btn btn-warning">
+                <i class="fas fa-edit"></i> Update Record
+              </button>
+              <button type="button" id="delete-btn" class="btn btn-danger">
+                <i class="fas fa-trash"></i> Delete Record
+              </button>
+              <button type="button" id="cancel-btn" class="btn btn-secondary">
+                <i class="fas fa-times"></i> Cancel
+              </button>
+            </div>
+          </form>
+
+          <!-- Table to Display Records -->
+          <div class="table-container">
+            <table id="records-table" class="table">
+              <thead>
+                <tr>
+                  <th>SIN</th>
+                  <th>Feeder Id</th>
+                  <th>Substation Name</th>
+                  <th>Type</th>
+                  <th>Capacity</th>
+                  <th>kV</th>
+                  <th>Last Maintenance Date</th>
+                  <th>Next Maintenance Date</th>
+                  <th>SurgeAr Resistance</th>
+                  <th>Nutrel Resistance</th>
+                  <th>IR HT-LT</th>
+                  <th>IR HT-Body</th>
+                  <th>IR LT-Body</th>
+                  <th>New Sub</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% electricalData.forEach(record => { %>
+                <tr>
+                  <td><%= record.SIN %></td>
+                  <td><%= record["Feeder Id"] %></td>
+                  <td><%= record["Substation Name"] %></td>
+                  <td><%= record.Type %></td>
+                  <td><%= record.Capacity %></td>
+                  <td><%= record.kV %></td>
+                  <td><%= record.LastMaintenanceDate || "N/A" %></td>
+                  <td><%= record.NextMaintenanceDate || "N/A" %></td>
+                  <td><%= record.SurgeArResistance || "N/A" %></td>
+                  <td><%= record.NutrelResistance || "N/A" %></td>
+                  <td><%= record.IR_HT_LT || "N/A" %></td>
+                  <td><%= record.IR_HT_BODY || "N/A" %></td>
+                  <td><%= record.IR_LT_BODY || "N/A" %></td>
+                  <td><%= record.new_sub ? "Yes" : "No" %></td>
+                  <td>
+                    <button
+                      class="btn btn-warning edit-btn"
+                      data-sin="<%= record.SIN %>"
+                    >
+                      Edit
+                    </button>
+                    <button
+                      class="btn btn-danger delete-btn"
+                      data-sin="<%= record.SIN %>"
+                    >
+                      Delete
+                    </button>
+                  </td>
+                </tr>
+                <% }) %>
+              </tbody>
+            </table>
+            <div class="floating-scrollbar" id="floating-scrollbar"></div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="app-footer">
+        <p>
+          © <span id="current-year"></span> Transformer Maintenance Monitoring
+          System. All rights reserved.
+        </p>
+        <p>Created by Asanka Udayanga</p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/manage.js"></script>
+    <script>
+      const currentYear = new Date().getFullYear();
+      document.getElementById("current-year").textContent = currentYear;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,364 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Layout */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+  flex: 1;
+}
+
+/* Header Styles */
+.app-header {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-header h1 {
+  color: #2563eb;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-top: 0.5rem;
+}
+
+/* Navigation Bar Styles */
+.navigation-bar {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+.navigation-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-bar ul li {
+  display: inline;
+}
+
+.navigation-bar ul li a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.navigation-bar ul li a:hover {
+  color: #1d4ed8;
+}
+
+.navigation-bar ul li a i {
+  margin-right: 0.5rem;
+}
+
+/* Card Component */
+.card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Search Section */
+.search-section {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+#form-subtitle {
+  font-size: 1.25rem;
+  color: #2563eb; /* Match the primary color */
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s;
+  font-size: 0.875rem;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-success {
+  background-color: #16a34a;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #15803d;
+}
+
+.btn-warning {
+  background-color: #ca8a04;
+  color: white;
+}
+
+.btn-warning:hover {
+  background-color: #b45309;
+}
+
+.btn-danger {
+  background-color: #dc2626;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #b91c1c;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Form Styles */
+.record-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Table Styles */
+.table-container {
+  margin-top: 2rem;
+  overflow-x: auto;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  position: relative;
+  max-height: 600px; /* Limit height to make scrollbar visible */
+  overflow-y: auto; /* Vertical scroll for tall tables */
+}
+
+.table {
+  width: 100%;
+  min-width: 1200px;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.table th,
+.table td {
+  border: 1px solid #e2e8f0;
+  padding: 0.5rem;
+  text-align: left;
+  font-size: 0.875rem;
+}
+
+.table th {
+  background-color: #2563eb;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.table td {
+  background-color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+
+.table .edit-btn,
+.table .delete-btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin: 0.2rem;
+  font-size: 0.75rem;
+}
+
+.table .edit-btn {
+  background-color: #ca8a04;
+  color: white;
+}
+
+.table .edit-btn:hover {
+  background-color: #b45309;
+}
+
+.table .delete-btn {
+  background-color: #dc2626;
+  color: white;
+}
+
+.table .delete-btn:hover {
+  background-color: #b91c1c;
+}
+
+/* Floating Scrollbar */
+.floating-scrollbar {
+  position: absolute; /* Changed to absolute for better control */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15px; /* Increased height for visibility */
+  background-color: #f1f5f9; /* Match page background */
+  overflow-x: auto;
+  z-index: 2;
+  border-top: 1px solid #e2e8f0;
+  display: none; /* Add border for contrast */
+}
+
+.floating-scrollbar::-webkit-scrollbar {
+  height: 15px;
+}
+
+.floating-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #2563eb;
+  border-radius: 7px;
+  border: 3px solid #f1f5f9; /* Add padding around thumb */
+}
+
+.floating-scrollbar::-webkit-scrollbar-track {
+  background-color: #e2e8f0;
+  border-radius: 7px;
+}
+
+/* Footer */
+.app-footer {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  text-align: center;
+  color: #64748b;
+  margin-top: auto;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+
+  .search-section {
+    flex-direction: column;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.75rem;
+    padding: 0.3rem;
+  }
+
+  .table .edit-btn,
+  .table .delete-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.65rem;
+  }
+}
